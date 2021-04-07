@@ -50,6 +50,12 @@ input.form-row{
 }
 input.submit{
 	font-weight: bold;
+	background-color: #00009e;
+	border: none;
+	color: #fff
+}
+input.submit:hover{
+	background-color: #000042;
 }
 footer.footer{
 	padding-top: 40px;
@@ -61,8 +67,9 @@ a.ahmed{
 	text-decoration: none;
 }
 textarea {
-	width: 600px;
-	height: 120px;
+	width: 50%;
+	height: 70px;
+	text-align: center;
 	padding: 5px;
 	border-radius: 7px;
 	background-position: bottom right;
