@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+nav.navbar{
+}
+a.navbar-brand {
+	margin: 0 1rem;
+	font-weight: bold;
+
+}
+a.nav-link {
+	display: inline;
+	margin: 0 1rem;
+}
+.carousel {
+	width: 100%;
+	height: auto;
+}
+section.container-md{
+	margin-top: 100px;
+}
+h1.lead{
+	margin-bottom: 3.5rem;
+}
+img.figure-img{
+	width: 400px;
+	height: 400px
+}
+.contact{
+	margin-top: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #212529;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+}
+input{
+	display: flex;
+ 	align-items: center;
+	text-align: center;
+	margin: 10px 50%;
+}
+input.form-row{
+	display: flex;
+	align-content: center;
+}
+input.submit{
+	font-weight: bold;
+}
+footer.footer{
+	padding-top: 40px;
+	padding-bottom: 40px; 
+	background-color: #000000;
+	color: #ffffff;
+}
+a.ahmed{
+	text-decoration: none;
+}
+textarea {
+	width: 600px;
+	height: 120px;
+	padding: 5px;
+	border-radius: 7px;
+	background-position: bottom right;
+	background-repeat: no-repeat;
+}
