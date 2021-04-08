@@ -25,10 +25,27 @@ section.container-md{
 }
 h1.lead{
 	margin-bottom: 3.5rem;
+	text-align: center;
 }
 img.figure-img{
 	width: 400px;
 	height: 400px
+}
+div.card{
+	margin-right: 10px; 
+}
+img.card-img-top{
+	position: relative;
+}
+h5.card-title{
+	position: absolute;
+	z-index: 9999;
+	top: 10px;
+	left: 10px;
+	color: #000;
+	opacity: 0.6;
+	font-size: 2rem;
+	font-family: cursive;
 }
 .contact{
 	margin-top: 100px;
@@ -40,15 +57,15 @@ img.figure-img{
 	background-attachment: fixed;
 
 }
-input{
-	display: flex;
- 	align-items: center;
-	text-align: center;
-	margin: 10px 50%;
+div.col-md-6{
+	margin: 10px 10px 0 10px;
+	width: 98%;
 }
-input.form-row{
-	display: flex;
-	align-content: center;
+input{
+	text-align: center;
+}
+form.form-row{
+	padding: 0 25%;
 }
 input.submit{
 	font-weight: bold;
@@ -69,10 +86,11 @@ a.ahmed{
 	text-decoration: none;
 }
 textarea {
-	width: 50%;
+	width: 98%;
 	height: 70px;
+	padding: .375rem .75rem;
 	text-align: center;
-	padding: 5px;
+	margin: 10px;
 	border-radius: 7px;
 	background-position: bottom right;
 	background-repeat: no-repeat;
